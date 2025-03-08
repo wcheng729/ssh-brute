@@ -2,10 +2,8 @@ from pwn import *
 import paramiko
 
 
-
-
-host="127.0.0.1"
-username="kali"
+host="127.0.0.1"  # change this to your target ip
+username="kali"   # change this to a valid username
 attempts=0
 
 
